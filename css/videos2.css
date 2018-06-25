@@ -1,63 +1,29 @@
-body{
-    overflow-x: hidden;
+#left-blue-screen{
+    position: relative;
 }
-.videoGallery{
-    width: 90%;
-}
-/*VideoPlayer Styling*/
-#videoPlayer {
-  position: relative;
-  margin-left: 20%;
-  overflow: hidden;
-}
-
-/*Parts of Page*/
-.thumbnail-column{
-    width: 15%;
-    height: 490px;
-    float: right;
-    border: 3px solid #7BCBA4;
-}
-
-
-/*Thumbnail CSS*/
-.thumb{
-    width: 95%;
-    cursor: pointer;
-    margin-left: 5%;
-}
-
-@media (max-width:1500px){
-  #videoPlayer {
-  margin-left: 15%;
-}
-    
-    
-}
-
-@media (max-width:1300px){
-  #videoPlayer {
-  margin-left: 10%;
-  width: 70%;
-}
-/*
-@media (max-width:772px){
-  .videoGallery{
+.text-block{
+    position: absolute;
+    top:125px;
+    left: 125px;
     width: 600px;
 }
-    .thumbnail-column{
-    width: 600px;
-    height: 200px;
-    margin-right: -11%;
+
+.button{
+    height: 75px;
+    background-image: url(../images/TempArt/Spoiler_Buttons110x84.png);
+    text-indent: -9999px;
+    display: inline-block;
     
-    }
-#videoPlayer {
-  margin-left: 11%;
-        
 }
-.storyboards{
-    width: 600px;
+
+.spoiler-btn{
+    position: absolute;
+    bottom: 20px;
+    right: 65px;
+    width: 110px;
+    background-position: -220px 0px;
 }
-    
-   
-}*/
+
+.spoiler-btn:active{
+    background-position: 0px -78px;
+}
