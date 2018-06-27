@@ -15,7 +15,7 @@
     width: 100%;
 }
 
-.text-block{
+.left-text-block{
     font-size: 1em;
     z-index: 11;
     position: absolute;
@@ -62,7 +62,7 @@
     width: 100%;
 }
 
-.text-block{
+.right-text-block{
     font-size: 1em;
     z-index: 11;
     position: absolute;
