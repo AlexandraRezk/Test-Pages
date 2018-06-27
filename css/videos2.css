@@ -1,3 +1,4 @@
+/*Left Screen*/
 .left-screen{
     float: left;
     position: relative;
@@ -5,7 +6,7 @@
 #left-blue-screen{
     z-index: 10;
     position: absolute;
-    top:1%;
+    top:.25%;
     left: -.05%;
     width: 100%;
 }
@@ -32,7 +33,7 @@
     
 }
 
-.spoiler-btn{
+.left-blue-spoiler-btn{
     position: absolute;
     bottom: 2%;
     right: 8%;
@@ -40,6 +41,53 @@
     background-position: 28% 0;
 }
 
-.spoiler-btn:hover{
-    background-position: 0px -78px;
+.left-blue-spoiler-btn:hover{
+    background-position: -217px -78px;
+}
+
+/*Right Screen*/
+.right-screen{
+    float: right;
+    position: relative;
+}
+#right-green-screen{
+    z-index: 10;
+    position: absolute;
+    top:.25%;
+    left: -.05%;
+    width: 100%;
+}
+#right-green-shelf{
+    z-index: 9;
+    width: 100%;
+}
+
+.text-block{
+    font-size: 1em;
+    z-index: 11;
+    position: absolute;
+    top: 20%;
+    left: 11%;
+    width: 75%;
+}
+
+.button{
+    z-index: 12;
+    height: 11%;
+    background-image: url(../images/TempArt/Spoiler_Buttons110x84.png);
+    text-indent: -9999px;
+    display: inline-block;
+    
+}
+
+.right-green-spoiler-btn{
+    position: absolute;
+    bottom: 4%;
+    left: 8%;
+    width: 11.5%;
+    background-position: 42.5% 0;
+}
+
+.right-green-spoiler-btn:hover{
+    background-position: -330px -78px;
 }
