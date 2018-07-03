@@ -8,11 +8,17 @@
     position: absolute;
     top:.25%;
     left: -.05%;
-    width: 100%;
+    width: 50vw;
 }
 #left-blue-shelf{
     z-index: 9;
-    width: 100%;
+    width: 50vw;
+    animation-name: slideRight;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
 }
 
 .left-text-block{
@@ -21,7 +27,7 @@
     position: absolute;
     top: 20%;
     left: 14%;
-    width: 75%;
+    width: 38vw;
 }
 
 .button{
@@ -55,11 +61,17 @@
     position: absolute;
     top:.25%;
     left: -.05%;
-    width: 100%;
+    width: 50vw;
 }
 #right-green-shelf{
     z-index: 9;
-    width: 100%;
+    width: 50vw;
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
 }
 
 .right-text-block{
@@ -68,7 +80,7 @@
     position: absolute;
     top: 20%;
     left: 11%;
-    width: 75%;
+    width: 38vw;
 }
 
 .button{
@@ -90,4 +102,19 @@
 
 .right-green-spoiler-btn:hover{
     background-position: -330px -78px;
+}
+
+/*@keyframes slideRight{
+    from {transform: translateX(0);}
+    to {transform: translateX(75%);}
+}*/
+
+@keyframes slideRight{
+    0% {transform: translateX(0);}
+    100%{transform: translateX(750px);}
+}
+
+@keyframes slideLeft{
+    0%{transform: translate(0);}
+    100%{transform: translateX(-750px);}
 }
