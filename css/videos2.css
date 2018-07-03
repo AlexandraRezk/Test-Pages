@@ -104,12 +104,12 @@
     background-position: -330px -78px;
 }
 
-/*@keyframes slideRight{
+@keyframes slideRight{
     from {transform: translateX(0);}
     to {transform: translateX(75%);}
-}*/
+}
 
-@keyframes slideRight{
+/*@keyframes slideRight{
     0% {transform: translateX(0);}
     100%{transform: translateX(750px);}
 }
@@ -117,4 +117,4 @@
 @keyframes slideLeft{
     0%{transform: translate(0);}
     100%{transform: translateX(-750px);}
-}
+}*/
