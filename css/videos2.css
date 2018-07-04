@@ -107,9 +107,27 @@
 @keyframes slideRight{
     from {transform: translateX(0);}
     to {transform: translateX(75%);}
+<<<<<<< HEAD
 }
 
 @keyframes slideLeft{
     from {transform: translateX(0);}
     to {transform: translateX(-75%);}
 }
+=======
+}
+
+@keyframes slideLeft{
+    from {transform: translateX(0);}
+    to {transform: translateX(-75%);}
+}
+/*@keyframes slideRight{
+    0% {transform: translateX(0);}
+    100%{transform: translateX(750px);}
+}
+
+@keyframes slideLeft{
+    0%{transform: translate(0);}
+    100%{transform: translateX(-750px);}
+}*/
+>>>>>>> 6124030c6097abdec850a75ec243c834286a5236
