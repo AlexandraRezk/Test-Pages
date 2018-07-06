@@ -1,3 +1,6 @@
+body {
+    overflow-x: hidden;
+}
 /*Left Screen*/
 .left-screen{
     float: left;
@@ -11,10 +14,22 @@
     width: 50vw;
     
 }
-#left-blue-shelf{
+.left-shelf {
     z-index: 9;
     width: 50vw;
+}
+
+.left-shelf.open{
     animation-name: slideRight;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+.left-shelf.close{
+    animation-name: slideLeft;
     animation-duration: 2s;
     animation-timing-function: ease-in;
     animation-iteration-count: 1;
@@ -65,10 +80,22 @@
     width: 50vw;
 }
 
-#right-green-shelf{
+.right-shelf{
     z-index: 9;
     width: 50vw;
     animation-name: slideLeft;
+}
+
+.right-shelf.open{
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+.right-shelf.close{
+    animation-name: slideRight;
     animation-duration: 2s;
     animation-timing-function: ease-in;
     animation-iteration-count: 1;
@@ -109,6 +136,7 @@
 @keyframes slideRight{
     from {transform: translateX(0);}
     to {transform: translateX(75%);}
+}
 
 @keyframes slideLeft{
     from {transform: translateX(0);}
