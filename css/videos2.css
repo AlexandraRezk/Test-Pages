@@ -83,7 +83,6 @@ body {
 .right-shelf{
     z-index: 9;
     width: 50vw;
-    animation-name: slideLeft;
 }
 
 .right-shelf.open{
