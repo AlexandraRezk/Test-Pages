@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 body{
+=======
+body {
+>>>>>>> e897686072e34a60eab169e52eef82512bb46113
     overflow-x: hidden;
 }
 /*Left Screen*/
@@ -14,10 +18,22 @@ body{
     width: 50vw;
     
 }
-#left-blue-shelf{
+.left-shelf {
     z-index: 9;
     width: 50vw;
+}
+
+.left-shelf.open{
     animation-name: slideRight;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+.left-shelf.close{
+    animation-name: slideLeft;
     animation-duration: 2s;
     animation-timing-function: ease-in;
     animation-iteration-count: 1;
@@ -68,10 +84,21 @@ body{
     width: 50vw;
 }
 
-#right-green-shelf{
+.right-shelf{
     z-index: 9;
     width: 50vw;
+}
+
+.right-shelf.open{
     animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+.right-shelf.close{
+    animation-name: slideRight;
     animation-duration: 2s;
     animation-timing-function: ease-in;
     animation-iteration-count: 1;
@@ -113,6 +140,10 @@ body{
     from {transform: translateX(0);}
     to {transform: translateX(75%);}
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> e897686072e34a60eab169e52eef82512bb46113
 @keyframes slideLeft{
     from {transform: translateX(0);}
     to {transform: translateX(-75%);}
