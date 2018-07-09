@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 /*Left Screen*/
 .left-screen{
     float: left;
@@ -106,11 +109,11 @@
     background-position: -330px -78px;
 }
 
-@keyframes slideRight{
+/*@keyframes slideRight{
     from {transform: translateX(0);}
     to {transform: translateX(75%);}
-
+}
 @keyframes slideLeft{
     from {transform: translateX(0);}
     to {transform: translateX(-75%);}
-}
+}*/
