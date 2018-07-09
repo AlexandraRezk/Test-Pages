@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-body{
-=======
 body {
->>>>>>> e897686072e34a60eab169e52eef82512bb46113
     overflow-x: hidden;
 }
 /*Left Screen*/
@@ -136,15 +132,11 @@ body {
     background-position: -330px -78px;
 }
 
-/*@keyframes slideRight{
+@keyframes slideRight{
     from {transform: translateX(0);}
     to {transform: translateX(75%);}
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> e897686072e34a60eab169e52eef82512bb46113
 @keyframes slideLeft{
     from {transform: translateX(0);}
     to {transform: translateX(-75%);}
-}*/
+}

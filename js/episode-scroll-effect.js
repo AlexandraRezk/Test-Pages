@@ -15,11 +15,7 @@ function checkLeftShelf(){
         
         //check to see if this current container is within viewport
         if ((elementBottomPosition >= windowTopPosition) && (elementTopPosition <= windowBottomPosition)){
-            $element.removeClass('close');
             $element.addClass('open');
-        } else {
-            $element.removeClass('open');
-            $element.addClass('close');
         }
     });
 }
@@ -37,12 +33,8 @@ function checkRightShelf(){
         
         //check to see if this current container is within viewport
         if ((elementBottomPosition >= windowTopPosition) && (elementTopPosition <= windowBottomPosition)){
-            $element.removeClass('close');
             $element.addClass('open');
-        } else {
-            $element.removeClass('open');
-             $element.addClass('close');
-        }
+        } 
     });
 }
 
